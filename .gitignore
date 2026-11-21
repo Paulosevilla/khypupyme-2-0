@@ -1,0 +1,21 @@
+# Compilación y dependencias
+**/bin/
+**/obj/
+**/node_modules/
+**/dist/
+artifacts/
+web/src-tauri/target/
+web/src-tauri/gen/
+.vs/
+*.user
+
+# Configuración y credenciales locales
+.env
+.env.*
+!.env.example
+*.local.json
+*.pfx
+*.pem
+*.key
+*.backup
+*.dump
